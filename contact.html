@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Walchand College of Engineering</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>WCE Sangli</span>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="placements.html">Placements</a></li>
+                    <li><a href="campus.html">Campus Life</a></li>
+                    <li><a href="contact.html" style="color: var(--primary-blue);"
+                            class="btn btn-primary btn-apply-nav">Apply Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header"
+        style="background-image: linear-gradient(var(--bg-overlay), var(--bg-overlay)), url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');">
+        <div>
+            <h1>Contact Us</h1>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / <span>Get in Touch</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info & Form -->
+    <section class="page-section container">
+        <div class="section-heading">
+            <h2>Get In Touch</h2>
+            <p>We'd love to hear from you</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem;">
+            <!-- Contact Details -->
+            <div>
+                <h3 style="color: var(--primary-blue); margin-bottom: 2rem;">Contact Information</h3>
+
+                <div style="display: flex; gap: 1rem; margin-bottom: 2rem;">
+                    <div
+                        style="width: 50px; height: 50px; background: var(--off-white); display: flex; align-items: center; justify-content: center; border-radius: 50%; color: var(--accent-gold);">
+                        <i class="fas fa-map-marker-alt fa-lg"></i>
+                    </div>
+                    <div>
+                        <h4 style="margin-bottom: 0.25rem;">Address</h4>
+                        <p style="color: var(--text-gray);">Walchand College of Engineering,<br>A/P: Vishrambag, Sangli
+                            - 416415,<br>Maharashtra, India</p>
+                    </div>
+                </div>
+
+                <div style="display: flex; gap: 1rem; margin-bottom: 2rem;">
+                    <div
+                        style="width: 50px; height: 50px; background: var(--off-white); display: flex; align-items: center; justify-content: center; border-radius: 50%; color: var(--accent-gold);">
+                        <i class="fas fa-phone fa-lg"></i>
+                    </div>
+                    <div>
+                        <h4 style="margin-bottom: 0.25rem;">Phone</h4>
+                        <p style="color: var(--text-gray);">+91-233-2300383</p>
+                        <p style="color: var(--text-gray);">+91-233-2300393 (Fax)</p>
+                    </div>
+                </div>
+
+                <div style="display: flex; gap: 1rem; margin-bottom: 2rem;">
+                    <div
+                        style="width: 50px; height: 50px; background: var(--off-white); display: flex; align-items: center; justify-content: center; border-radius: 50%; color: var(--accent-gold);">
+                        <i class="fas fa-envelope fa-lg"></i>
+                    </div>
+                    <div>
+                        <h4 style="margin-bottom: 0.25rem;">Email</h4>
+                        <p style="color: var(--text-gray);">director@walchandsangli.ac.in</p>
+                        <p style="color: var(--text-gray);">registrar@walchandsangli.ac.in</p>
+                    </div>
+                </div>
+
+                <!-- Map Placeholder -->
+                <div
+                    style="background: #eee; height: 250px; border-radius: var(--border-radius); display: flex; align-items: center; justify-content: center; color: #777;">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.5756972279144!2d74.60018597515328!3d16.84742688395079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1237f52c65db5%3A0xa353567ce71b4748!2sWalchand%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1706606622879!5m2!1sen!2sin"
+                        width="100%" height="100%" style="border:0; border-radius: var(--border-radius);"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div>
+                <form class="contact-form">
+                    <h3 style="color: var(--primary-blue); margin-bottom: 1.5rem;">Send Inquiry</h3>
+
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="John Doe">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" class="form-control" placeholder="john@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" class="form-control">
+                            <option>Admission Inquiry</option>
+                            <option>Exam Related</option>
+                            <option>Alumni Affairs</option>
+                            <option>General Support</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" placeholder="How can we help you?"></textarea>
+                    </div>
+
+                    <button type="button" class="btn btn-primary" style="width: 100%;">SendMessage</button>
+                    <!-- Button type button to prevent actual submit which refreshes page in static site -->
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h2>WCE Sangli</h2>
+                    <p>Walchand College of Engineering is an autonomous institute renowned for its academic excellence.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Vishrambag, Sangli</li>
+                        <li><i class="fas fa-phone"></i> +91 233 2300383</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Walchand College of Engineering, Sangli. All basic rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
